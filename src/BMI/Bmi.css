@@ -1,0 +1,181 @@
+* {
+    Font-Family: Quicksand;
+    Font-Size: 16px;
+    Color: #333;
+}
+Body {
+    Margin: 0;
+    Height: 100vh;
+    Padding: 0;
+    Border: 0;
+    Background: Linear-Gradient(To Bottom Right, #F1F2B5, #Eef2f3);
+}
+.Form {
+    Background-Color: #Fff;
+    Height: 240px;
+    Width: 450px;
+    Border-Radius: 20px;
+    Margin: 20px Auto 20px Auto;
+    Display: Block;
+    Border: Solid 1px #289df6;
+    Box-Shadow: 0 0 40px 0 #Ddd;
+}
+.Form:hover {
+    Box-Shadow: 0 0 60px 0 #Ccc;
+    Transition: 0.4s;
+    Transform: Scale(1.02);
+}
+.Row-One {
+    Padding: 20px;
+}
+.Row-Two {
+    Padding: 20px;
+}
+.Text-Input {
+    Width: 60px;
+    Height: 30px;
+    Border-Radius: 10px;
+    Background-Color: #Dbeffe;
+    Border: None;
+    Outline: None;
+    Padding: 5px 10px;
+    Cursor: Pointer;
+}
+.Text-Input:last-Child {
+    Margin-Bottom: 35px;
+}
+.Text-Input:hover {
+    Background-Color: #Cbe7fd;
+}
+#Submit {
+    Border: None;
+    Border-Radius: 10px;
+    Height: 40px;
+    Width: 140px;
+    Background-Color: #289df6;
+    Color: #Fff;
+    Margin: Auto;
+    Display: Block;
+    Outline: None;
+    Cursor: Pointer;
+}
+#Submit:hover {
+    Background-Color: #0a8ef2;
+}
+.Text {
+    Display: Inline-Block;
+    Margin: 5px 20px 5px 8px;
+}
+.Row-One {
+    Padding: 30px 20px 15px 20px;
+}
+.Row-Two {
+    Padding: 15px 20px 30px 20px;
+}
+.Container {
+    Display: Inline-Block;
+    Position: Relative;
+    Padding-Left: 30px;
+    Cursor: Pointer;
+    User-Select: None;
+}
+.Container Input {
+    Position: Absolute;
+    Opacity: 0;
+}
+.Checkmark {
+    Position: Absolute;
+    Top: 0;
+    Left: 0;
+    Height: 25px;
+    Width: 25px;
+    Background-Color: #Dbeffe;
+    Border-Radius: 50%;
+}
+.Container:hover Input ~ .Checkmark {
+    Background-Color: #Cbe7fd;
+}
+.Container Input:checked ~ .Checkmark {
+    Background-Color: #289df6;
+}
+H1 {
+    Font-Size: 30px;
+    Font-Weight: 300;
+    Text-Align: Center;
+    Color: #289df6;
+    Padding-Top: 15px;
+    Display: Block;
+}
+H2 {
+    Font-Size: 22px;
+    Font-Weight: 300;
+    Text-Align: Center;
+}
+H3 {
+    Font-Size: 24px;
+    Font-Weight: 600;
+    Text-Align: Center;
+    Padding: 15px;
+    
+}
+H3 B {
+    Font-Size: 32px;
+    Font-Weight: 300;
+    Color: #289df6;
+}
+.H3:hover {
+    Box-Shadow: 0 0 60px 0 #Ccc;
+    Transition: 0.4s;
+    Transform: Scale(1.02);
+}
+.Checkmark:after {
+    Content: "";
+    Position: Absolute;
+    Display: None;
+}
+.Container Input:checked ~ .Checkmark:after {
+    Display: Block;
+}
+.Container .Checkmark:after {
+    Left: 9px;
+    Top: 5px;
+    Width: 5px;
+    Height: 10px;
+    Border: Solid White;
+    Border-Width: 0 2px 2px 0;
+    Transform: Rotate(45deg);
+}
+.status{
+    Font-Size: 24px;
+    Font-Weight: 300;
+    Text-Align: Center;
+    Padding: 15px;
+    background-color: grey;
+    color: rgb(9, 8, 71);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 140px;
+   
+    height: 50px;
+    margin-left: 500px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.result{
+    Font-Size: 20px;
+    Font-Weight: 300;
+    color: rgb(218, 213, 213);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+  
+}
+.img{
+    margin-left: 170px;
+    margin-top: -130px;
+    height: 110px;
+    width: 80px;
+}
+.status:hover {
+    Box-Shadow: 0 0 60px 0 #Ccc;
+    Transition: 0.4s;
+    Transform: Scale(1.02);
+}
